@@ -24,25 +24,6 @@ As Robert C. Martin (Uncle Bob) describes in *The Clean Coder*, katas are a
 way for professional developers to warm up before work, just like musicians
 practice scales.
 
-## How I practice
-
-- **Test-Driven Development**: every solution is built through the
-  red → green → refactor cycle.
-- **Small steps**: the commit history shows the progression, one test at a time.
-- **Repetition**: the same kata may appear more than once as I revisit it
-  to make it cleaner and faster.
-- **Constraints**: sometimes I add rules (no `if` statements, no mouse,
-  only immutable data) to push myself out of habits.
-
-## Katas
-
-| Kata | Description |
-|------|-------------|
-| Prime Factors | Decompose an integer into its prime factors |
-| Bowling Game | Calculate the score of a bowling game |
-
-*More katas added regularly.*
-
 ## Why?
 
 Writing code at work is the performance; katas are the rehearsal.
