@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:args/args.dart';
+import 'package:shared/shared.dart';
 
 ArgParser buildParser() {
   return ArgParser()
@@ -79,12 +80,4 @@ int evaluate(List<int> generatedThousandNumbers, int targetNumber) {
 // 31 appeared 10 times
 void printOutput(int targetNumber, int times) {
   print("$targetNumber appeared $times times");
-}
-
-class InputException implements Exception {
-  const InputException();
-
-  @override
-  String toString() =>
-      "InputException: Invalid input, please check the README for more information.";
 }

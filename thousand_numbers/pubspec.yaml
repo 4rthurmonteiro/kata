@@ -1,6 +1,7 @@
 name: thousand_numbers
 description: A sample command-line application with basic argument parsing.
 version: 0.0.1
+publish_to: none
 # repository: https://github.com/my_org/my_repo
 
 environment:
@@ -9,6 +10,8 @@ environment:
 # Add regular dependencies here.
 dependencies:
   args: ^2.7.0
+  shared: 
+    path: ../shared
 
 dev_dependencies:
   lints: ^6.0.0
